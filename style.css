@@ -48,10 +48,11 @@ p{
 }
 .one h3{
     color: hsl(71, 73%, 54%);
-    margin: 15px 0;
+    margin: 22px 0 12px 0;
 }
 .one p{
     color: hsl(218, 22%, 67%);
+    line-height: 28px;
 }
 .two h3{
     color: hsl(204, 43%, 93%);
@@ -60,20 +61,19 @@ p{
 .two h1{
     color: white;
 }
-.two p{
+.two>p{
     color: hsla(204, 43%, 93%, 0.85);
 }
 .two button{
     color: hsl(204, 43%, 93%);
     background-color: hsl(71, 73%, 54%);
     border: 0;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
-    width: 80%;
-    padding: 20px 0;
-    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 2vh 0;
+    border-radius: 5px;
     font-size: 18px;
     display: block;
-    margin: auto;
     margin-top: 35px;
 }
 .three h3{
@@ -81,7 +81,8 @@ p{
     margin-bottom: 20px;
 }
 .three p{
-    color: hsla(204, 43%, 93%, 0.85);
+    color: hsla(204, 43%, 93%, 0.75);
+    line-height: 23px;
 }
 @media screen and (max-width:375px){
     .three p{
@@ -96,6 +97,7 @@ p{
     margin-right: 12px;
 }
 .two .price p{
+    color: hsla(204, 43%, 93%, 0.5);
     place-self: center;
 }
 
